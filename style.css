@@ -53,7 +53,7 @@ main {
 	font-weight: 300;
 	padding-top: 1vh;
 	/*	padding-bottom: 2vh;*/
-	text-align: justify;
+	text-align: left;
 	line-height: 1.7rem;
 }
 
@@ -76,7 +76,7 @@ main {
 	font-family: 'Chivo';
 	font-size: 0.8rem;
 	font-weight: 300;
-	color: red;
+	color: #F99B1C;
 	display: inline;
 }
 
@@ -119,7 +119,7 @@ main {
 
 .navbar-toggler-icon {
 	/*	background-image: './assets/hamburger.png';*/
-	border: 1px solid red;
+	border: 1px solid #F99B1C;
 }
 
 
@@ -131,11 +131,10 @@ main {
 .navbar a {
 	/*	float: left;*/
 	display: block;
-	color: red;
+	color: #F99B1C;
 	/*	text-align: center;*/
 	padding: 2vh;
 	text-decoration: none;
-	font-family: 'ciu-regular';
 }
 
 .slim {
@@ -145,6 +144,9 @@ main {
 .ciccio {
 	font-family: 'ciu-italic';
 }
+
+
+
 
 figcaption {
 	/*    padding-top: 2vh;*/
@@ -173,7 +175,7 @@ figcaption {
 /* Change background on mouse-over */
 
 .navbar a:hover {
-	color: red;
+	color: #F99B1C;
 	text-decoration: none;
 	font-family: 'ciu-italic';
 	font-weight: 700;
@@ -252,7 +254,7 @@ figcaption {
 	margin-top: 2.8vh;
 	font-family: 'ciu-regular';
 	font-weight: 300;
-	color: lightgray;
+	color: #7A51A0;
 	font-size: 0.8rem;
 }
 
@@ -268,13 +270,18 @@ figcaption {
 	margin-top: 5vh;
 	font-family: 'ciu-regular';
 	font-weight: 300;
-	color: lightgray;
+	color: #7A51A0;
 	font-size: 0.8rem;
 }
 
 
 .impo {
-	color: red;
+	color: #F99B1C;
+	font-weight: 700;
+}
+
+.importante {
+	color: black;
 	font-weight: 700;
 }
 
@@ -482,7 +489,7 @@ dd {
 
 
 #fondo {
-	background: lightgray;
+	background: #FED098;
 }
 
 /*

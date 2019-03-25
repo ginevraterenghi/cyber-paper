@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>data\sonification project:</title>
+
+	<!-- fav icon link -->
+	<link rel="shortcut icon" type="image/png" href="assets/fav.png" />
+
+	<!-- fonts link -->
+	<link href="https://fonts.googleapis.com/css?family=Chivo:100,300,400,700,900" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400i,500,600,700,900" rel="stylesheet">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- Your CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+<body>
+
+	<header class="container navbar fixed-top navbar-expand-md">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+		<a class="name" href="presentation.html">sonifying cyber-attacks in water plants</a>
+		<div class="name2" href="presentation.html">s-c-a-w-p</div>
+		<div class="collapse navbar-collapse justify-content-end" id="navbar">
+			<a class="ciccio" href="p1.html">I PROTOTYPE</a>
+			<a class="slim" href="p2.html">II PROTOTYPE</a>
+			<a class="slim" href="p3.html">III PROTOTYPE</a>
+		</div>
+	</header>
+
+	<main class="container col-md-7">
+
+		<div class="domanda impo">FIRST PROTOTYPE</div>
+
+		<div class="intro">
+			Sonifications are built on two different layer, considering data individually. The first one, represent the network component data refears to, the second layer sounds the morphology of data. In this first apporoach we considered 3 components: tanks, pumps and valves: for tanks we have data about water level, while we know the status and the pressure for pumps and valves. Sounds order follow the components geographic position (map). 
+		</div>
+		<img class="mappa" src="./assets/p1/p1-map.png">
+
+		<div id="unoa">
+
+			<div class="domanda impo">sonification</div>
+			<div class="district">
+				<figure>
+					<figcaption>blabla</figcaption>
+					<audio controls src="./assets/p1/Scenario02.wav">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			
+			
+			<div class="domanda impo">sound-key</div>
+			<div class="red">background sound for network components:</div>
+			<div class="district">
+				<figure>
+					<figcaption>TANK</figcaption>
+					<audio controls src="./assets/p1/Legenda/Components/Tank_EQ.wav">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>PUMP</figcaption>
+					<audio controls src="./assets/p1/Legenda/Components/Pump_EQ.wav">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>VALVE</figcaption>
+					<audio controls src="./assets/p1/Legenda/Components/Valve_EQ.wav">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>JUNCTION</figcaption>
+					<audio controls src="./assets/p1/Legenda/Components/Pressure_EQ.wav">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+
+			</div>
+
+			<div class="red">distinct sounds for components' status</div>
+			<div class="district">
+				<div class="red">TANK STATUS:</div>
+				<figure>
+					<figcaption>no anomaly</figcaption>
+					<audio controls src="./assets/p1/Legenda/Tank_Data/Tank_NoAnomaly.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>anomaly level [low]</figcaption>
+					<audio controls src="./assets/p1/Legenda/Tank_Data/Tank_Anomaly_UnLevel01.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>anomaly level [medium]</figcaption>
+					<audio controls src="./assets/p1/Legenda/Tank_Data/Tank_Anomaly_UnLevel02.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>anomaly level [high]</figcaption>
+					<audio controls src="./assets/p1/Legenda/Tank_Data/Tank_Anomaly_UnLevel03.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+
+
+
+			<div class="district">
+				<div class="red">PUMP STATUS:</div>
+				<figure>
+					<figcaption>no anomaly</figcaption>
+					<audio controls src="./assets/p1/Legenda/Pump_Data/Pump_NoAnomaly.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>anomaly level [low]</figcaption>
+					<audio controls src="./assets/p1/Legenda/Pump_Data/Pump_Anomaly_UnLevel01.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>anomaly level [medium]</figcaption>
+					<audio controls src="./assets/p1/Legenda/Pump_Data/Pump_Anomaly_UnLevel02.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figcaption>anomaly level [high]</figcaption>
+				<figure>
+					<audio controls src="./assets/p1/Legenda/Pump_Data/Pump_Anomaly_UnLevel03.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+
+			</div>
+
+
+			<div class="district">
+				<div class="red">VALVE STATUS:</div>
+				<figure>
+					<figcaption>no anomaly</figcaption>
+					<audio controls src="./assets/p1/Legenda/Valve_Data/Valve_NoAnomalies.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>anomaly level [low]</figcaption>
+					<audio controls src="./assets/p1/Legenda/Valve_Data/Valve_Anomaly_UnLevel01.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>anomaly level [medium]</figcaption>
+					<audio controls src="./assets/p1/Legenda/Valve_Data/Valve_Anomaly_UnLevel02.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figcaption>anomaly level [high]</figcaption>
+				<figure>
+					<audio controls src="./assets/p1/Legenda/Valve_Data/Valve_Anomaly_UnLevel03.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+
+			</div>
+
+
+			<div class="district">
+				<div class="red">JUNCTION STATUS:</div>
+				<figure>
+					<figcaption>no anomaly</figcaption>
+					<audio controls src="./assets/p1/Legenda/Pressure_Data/Pressure-NoAnomalies.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>anomaly level [low]</figcaption>
+					<audio controls src="./assets/p1/Legenda/Pressure_Data/Pressure_Anomaly_UnLevel01.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>anomaly level [medium]</figcaption>
+					<audio controls src="./assets/p1/Legenda/Pressure_Data/Pressure_Anomaly_UnLevel02.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figcaption>anomaly level [high]</figcaption>
+				<figure>
+					<audio controls src="./assets/p1/Legenda/Pressure_Data/Pressure_Anomaly_UnLevel03.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+
+			</div>
+
+			
+		</div>
+
+
+
+
+
+
+
+	</main>
+
+
+
+	<footer id="fondo">
+		<div class="container">
+			<div class="row fondo justify-content-center">
+
+				<div class="col-3">
+					<div class="info">
+						sonifying cyber-attacks in water plants &nbsp;
+						<br>&nbsp;
+					</div>
+					<div class="info0">
+						&nbsp;
+					</div>
+					<div class="info1">
+						Experimental Phase
+					</div>
+					<div class="info2">
+						January 2019
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="info">
+						Singapore University of Technology and Design //
+					</div>
+					<div class="info0">
+						Engineering Systems and Design Dep:
+					</div>
+					<div class="info1">
+						Stefano Galelli
+					</div>
+					<div class="info2">
+						Riccardo Taormina
+					</div>
+					<div class="info2">
+						&nbsp;
+					</div>
+
+				</div>
+				<div class="col-3">
+					<div class="info">
+						Politecnico di Milano //
+						<br>&nbsp;
+					</div>
+					<div class="info0">
+						DensityDesign Research Lab:
+					</div>
+					<div class="info1">
+						Sara Lenzi
+					</div>
+					<div class="info2">
+						Ginevra Terenghi
+					</div>
+					<div class="info3">
+						Paolo Ciuccarelli
+					</div>
+
+				</div>
+
+				<div class="col-3">
+					<div class="info">
+						<img class="footer_img" src="assets/logo-s.png">
+					</div>
+					<div class="infoF">
+						<img class="footer_img" src="assets/logo-dd.png">
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
